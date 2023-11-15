@@ -1,0 +1,21 @@
+User                  
+    userName
+    email
+    password
+    role
+Customer
+    name
+    email
+    phoneNumber
+    isGold
+Movies
+    title
+    description
+    dailyRentalRate
+    genera (DOCUMENT)
+genera
+    name
+rental
+    Customer (Document)
+    Movies  (Document)
+    dateOut
